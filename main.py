@@ -15,7 +15,7 @@ def run():
 	print("Waiting for new messages...")
 
 	while True:
-		time.sleep(1)
+		time.sleep(60)
 
 
 class NewMessageObserver:
